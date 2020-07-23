@@ -1,3 +1,6 @@
+# COVID19 Project
+This Website allow you to send and receive emails and fully authorize log in to the website and use it as your personal email
+
 # COVID19
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 8.3.23.
