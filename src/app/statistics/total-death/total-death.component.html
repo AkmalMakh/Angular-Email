@@ -1,0 +1,35 @@
+<div class="ui card">
+    <div class="content">
+        <div class="center aligned header">Deaths</div>
+    </div>
+    <div class="center aligned description">
+     <p class="number">
+        {{totalNumberDeath}}
+    </p>
+    </div>
+</div>
+
+<div class="ui card">
+    <div class="content">
+        <div class="center aligned header">Deaths By Country/Region</div>
+    </div>
+    <div class="list" style="overflow: hidden;" > 
+
+        <div class="ui middle aligned animated divided list">
+                <div class="item"  *ngFor="let Count of ListOfCountries">
+               
+                    <span class="country">
+                        {{Count.country}}
+                    </span>
+                    <span class="number1">
+                        {{Count.latest}} 
+                    </span>
+                      
+
+                </div>
+                </div>
+            
+        </div>
+
+</div>
+

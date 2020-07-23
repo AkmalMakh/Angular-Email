@@ -1,0 +1,22 @@
+.number{
+    font-weight: 700;
+    font-size: 54px;
+    color: #8ACA2B
+}
+.list{
+    width: auto;
+    height: 500px;
+    overflow: scroll;
+}
+.country{
+    font-weight: bolder;
+    font-size: large;
+}
+.number1{
+
+    margin-left: 10px;
+    color: red;
+    font-style: italic;
+    font-weight: bolder;
+    font-size: large;
+}
